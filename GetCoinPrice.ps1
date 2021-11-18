@@ -59,4 +59,4 @@ Set-ExcelRange -Worksheet $xlpkg.$workSheetName -Range market_cap -NumberFormat 
 Set-ExcelRange -Worksheet $xlpkg.$workSheetName -Range total_supply -NumberFormat '#,#' -AutoSize
 Set-ExcelRange -Worksheet $xlpkg.$workSheetName -Range max_supply -NumberFormat '#,#' -AutoSize
 
-Close-ExcelPackage $xlpkg -Show
+Close-ExcelPackage $xlpkg

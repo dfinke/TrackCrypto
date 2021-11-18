@@ -1,0 +1,7 @@
+uniswap
+ethereum
+chainlink
+bitcoin
+litecoin
+cardano
+dogecoin

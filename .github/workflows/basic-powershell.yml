@@ -21,8 +21,9 @@ jobs:
         shell: pwsh
         run: |
           # apt-get -y update && apt-get install -y --no-install-recommends libgdiplus libc6-dev
-          
+
           Import-Module ./Modules/ImportExcel.psd1 -Force
+          Import-Module ./CryptoCoins.psm1 -Force
 
           ./GetCoinPrice.ps1
         env:

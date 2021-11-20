@@ -5,3 +5,4 @@ bitcoin
 litecoin
 cardano
 dogecoin
+solana

@@ -27,6 +27,7 @@ jobs:
           Import-Module ./CryptoCoins.psm1 -Force
 
           ./GetCoinPrice.ps1
+          .C/reateChartOfPriceOverTime.ps1
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 

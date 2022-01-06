@@ -19,7 +19,7 @@ foreach ($worksheet in $worksheets) {
     }
 }
 
-$cd = New-ExcelChart -XRange last_updated -YRange current_price -NoLegend #-ChartType Line
+$cd = New-ExcelChart -XRange last_updated -YRange current_price -NoLegend -ChartType Line
 
 foreach ($entry in $h.GetEnumerator()) {
     $cd.Title = "$($entry.Key)`nCurrent Price Over Time"

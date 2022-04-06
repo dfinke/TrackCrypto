@@ -1,0 +1,1 @@
+- Setting up APIs for Crypto in Excel - https://youtu.be/EVgp658UHvA

@@ -21,6 +21,7 @@ jobs:
 
           ./GetCoinPrice.ps1
           ./CreateChartOfPriceOverTime.ps1
+          ./ExportTo-Csv.ps1
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 

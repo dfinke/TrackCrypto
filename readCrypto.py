@@ -7,7 +7,6 @@ Is updated ***daily*** via a GitHub Action using PowerShell, Excel, and exportin
 
 At https://github.com/dfinke/TrackCrypto
 """
-# st.subheader('Crypto Data')
 
 for coin in ["solana", "bitcoin", "dogecoin", "litecoin", "ethereum", "cardano", "chainlink", "uniswap"]:
     if st.checkbox('Show ' + coin):

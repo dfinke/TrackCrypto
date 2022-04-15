@@ -1,7 +1,9 @@
 import streamlit as st
 import pandas as pd
 
-'_Data_ is updated **daily*** via a GitHub Action using PowerShell, Excel. Exporting to CSV. At https://github.com/dfinke/TrackCrypto '
+'_Data_ is updated **daily*** via a GitHub Action using PowerShell, Excel. Exporting to CSV.' 
+'At https://github.com/dfinke/TrackCrypt'
+
 st.subheader('Crypto Data')
 
 for coin in ["solana", "bitcoin", "dogecoin", "litecoin", "ethereum", "cardano", "chainlink", "uniswap"]:

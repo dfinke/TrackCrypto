@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-'_Data_ is updated ***daily*** via a GitHub Action using PowerShell, Excel. Exporting to CSV.' 
+'_Data_ is updated ***daily*** via a GitHub Action using PowerShell, Excel, and exporting to CSV.' 
 'At https://github.com/dfinke/TrackCrypto'
 
 st.subheader('Crypto Data')

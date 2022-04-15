@@ -6,10 +6,12 @@ import pandas as pd
 Is updated ***daily*** via a GitHub Action using PowerShell, Excel, and exporting to CSV.
 
 At https://github.com/dfinke/TrackCrypto
+
+## Show
 """
 
-for coin in ["solana", "bitcoin", "dogecoin", "litecoin", "ethereum", "cardano", "chainlink", "uniswap"]:
-    if st.checkbox('Show ' + coin):
+for coin in ["Solana", "Bitcoin", "Dogecoin", "Litecoin", "Ethereum", "Cardano", "Chainlink", "Uniswap"]:
+    if st.checkbox(coin):
         st.subheader(coin)
         st.write(pd.read_csv(
             "https://raw.githubusercontent.com/dfinke/TrackCrypto/master/" + coin + ".csv"))

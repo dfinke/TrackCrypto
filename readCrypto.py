@@ -14,4 +14,4 @@ for coin in ["Solana", "Bitcoin", "Dogecoin", "Litecoin", "Ethereum", "Cardano",
     if st.checkbox(coin):
         st.subheader(coin)
         st.write(pd.read_csv(
-            "https://raw.githubusercontent.com/dfinke/TrackCrypto/master/" + coin + ".csv"))
+            "https://raw.githubusercontent.com/dfinke/TrackCrypto/master/" + coin.lower() + ".csv"))

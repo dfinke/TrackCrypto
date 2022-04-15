@@ -7,7 +7,7 @@ Is updated ***daily*** via a GitHub Action using PowerShell, Excel, and exportin
 
 At https://github.com/dfinke/TrackCrypto
 
-## Show
+### Show
 """
 
 for coin in ["Solana", "Bitcoin", "Dogecoin", "Litecoin", "Ethereum", "Cardano", "Chainlink", "Uniswap"]:

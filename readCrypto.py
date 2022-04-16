@@ -16,9 +16,9 @@ def load_data(targetID):
     return pd.read_csv(URL)
 
 for coin in ["Solana", "Bitcoin", "Dogecoin", "Litecoin", "Ethereum", "Cardano", "Chainlink", "Uniswap"]:
+    st.subheader(coin)
     if st.checkbox(coin):
         st.write(load_data(coin))
         
-    st.subheader('Graph ' + coin)
 # hist_values = np.histogram(
 #     data[DATE_COLUMN].dt.hour, bins=24, range=(0, 24))[0]

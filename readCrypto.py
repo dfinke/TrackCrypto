@@ -18,7 +18,6 @@ for coin in ["Solana", "Bitcoin", "Ethereum", "Dogecoin", "Litecoin", "Cardano",
     data = load_data(coin)
     
     if st.checkbox('show ' + coin + ' data grid'):
-        # st.write(data)
         data
     
     chart_data = pd.DataFrame(

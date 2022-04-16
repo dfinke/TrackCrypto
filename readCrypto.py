@@ -15,7 +15,7 @@ def load_data(targetID):
 
 for coin in ["Solana", "Bitcoin", "Dogecoin", "Litecoin", "Ethereum", "Cardano", "Chainlink", "Uniswap"]:
     st.subheader(coin)
-    if st.checkbox(coin):
+    if st.checkbox('show' + coin):
         st.write(load_data(coin))
         
 # hist_values = np.histogram(

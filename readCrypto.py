@@ -19,8 +19,7 @@ for coin in ["Solana", "Bitcoin", "Ethereum", "Dogecoin", "Litecoin", "Cardano",
     
     if st.checkbox('show ' + coin + ' data grid'):
         st.write(data)
-
-    st.subheader(coin)
+    
     chart_data = pd.DataFrame(
         data.current_price
     )

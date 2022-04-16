@@ -26,7 +26,7 @@ for coin in ["Solana", "Bitcoin", "Dogecoin", "Litecoin", "Ethereum", "Cardano",
 
     df=pd.DataFrame(
         data.current_price,
-        data.last_updated
+        columns=[last_updated]
     )
 
     if st.checkbox('show ' + coin + ' data'):

@@ -17,12 +17,12 @@ def load_data(targetID):
 for coin in ["Solana", "Bitcoin", "Ethereum", "Dogecoin", "Litecoin", "Cardano", "Chainlink", "Uniswap"]:
     data = load_data(coin)
     
+    if st.checkbox('show ' + coin + ' data grid'):
+        st.write(data)
+
     st.subheader(coin)
     chart_data = pd.DataFrame(
         data.current_price
     )
 
     st.line_chart(chart_data)
-
-    if st.checkbox('show ' + coin + ' data'):
-        st.write(data)

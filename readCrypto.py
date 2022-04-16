@@ -25,8 +25,7 @@ for coin in ["Solana", "Bitcoin", "Dogecoin", "Litecoin", "Ethereum", "Cardano",
     # st.bar_chart(chart_data)
 
     df=pd.DataFrame(
-        data.current_price,
-        columns=[last_updated]
+        data.current_price
     )
 
     if st.checkbox('show ' + coin + ' data'):

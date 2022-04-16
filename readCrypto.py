@@ -12,7 +12,5 @@ At https://github.com/dfinke/TrackCrypto
 
 for coin in ["Solana", "Bitcoin", "Dogecoin", "Litecoin", "Ethereum", "Cardano", "Chainlink", "Uniswap"]:
     if st.checkbox(coin):
-        # st.subheader(coin)
-        '#### ' + coin
         st.write(pd.read_csv(
             "https://raw.githubusercontent.com/dfinke/TrackCrypto/master/" + coin.lower() + ".csv"))

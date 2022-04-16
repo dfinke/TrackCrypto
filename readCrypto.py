@@ -17,12 +17,12 @@ def load_data(targetID):
 for coin in ["Solana", "Bitcoin", "Dogecoin", "Litecoin", "Ethereum", "Cardano", "Chainlink", "Uniswap"]:
     data = load_data(coin)
     st.subheader(coin)
-    st.bar_chart(data)
-    # chart_data = pd.DataFrame(
-    #  np.random.randn(50, 3),
-    #  columns=["a", "b", "c"])
+    # st.bar_chart(data)
+    chart_data = pd.DataFrame(
+     np.random.randn(50, 3),
+     columns=["a", "b", "c"])
 
-    # st.bar_chart(chart_data)
+    st.bar_chart(chart_data)
 
     if st.checkbox('show ' + coin):
         st.write(data)

@@ -18,3 +18,7 @@ def load_data(targetID):
 for coin in ["Solana", "Bitcoin", "Dogecoin", "Litecoin", "Ethereum", "Cardano", "Chainlink", "Uniswap"]:
     if st.checkbox(coin):
         st.write(load_data(coin))
+        
+    st.subheader('Graph ' + coin)
+# hist_values = np.histogram(
+#     data[DATE_COLUMN].dt.hour, bins=24, range=(0, 24))[0]

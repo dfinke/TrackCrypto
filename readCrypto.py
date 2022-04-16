@@ -16,8 +16,8 @@ def load_data(targetID):
 
 for coin in ["Solana", "Bitcoin", "Ethereum", "Dogecoin", "Litecoin", "Cardano", "Chainlink", "Uniswap"]:
     data = load_data(coin)
+    
     st.subheader(coin)
-
     chart_data = pd.DataFrame(
         data.current_price
     )

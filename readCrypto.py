@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 
 """
-# Crypto Data
-Is updated ***daily*** via a:
+# Crypto
+Updated ***daily*** via a:
 
 GitHub Action using PowerShell, Excel, and exporting to CSV: https://github.com/dfinke/TrackCrypto
 """

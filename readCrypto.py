@@ -3,7 +3,9 @@ import pandas as pd
 
 """
 # Crypto Data
-Is updated ***daily*** via a GitHub Action using PowerShell, Excel, and exporting to CSV: https://github.com/dfinke/TrackCrypto
+Is updated ***daily*** via a 
+
+GitHub Action using PowerShell, Excel, and exporting to CSV: https://github.com/dfinke/TrackCrypto
 
 ### Show
 """

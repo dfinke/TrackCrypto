@@ -24,9 +24,10 @@ for coin in ["Solana", "Bitcoin", "Dogecoin", "Litecoin", "Ethereum", "Cardano",
 
     # st.bar_chart(chart_data)
 
-    df=pd.DataFrame(
+    chart_data = pd.DataFrame(
         data.current_price
     )
+    st.bar_chart(chart_data)
 
     if st.checkbox('show ' + coin + ' data'):
         st.write(data)

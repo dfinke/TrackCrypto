@@ -10,7 +10,7 @@ GitHub Action using PowerShell, Excel, and exporting to CSV: https://github.com/
 ### Show
 """
 def load_data(targetID):
-    URL = "https://raw.githubusercontent.com/dfinke/TrackCrypto/master/" + targetID.lower() + ".csv"
+    URL = "https://raw.githubusercontent.com/dfinke/TrackCrypto/master/" + targetID.lower() + ".csv1"
     return pd.read_csv(URL)
 
 # for coin in ["Solana", "Bitcoin", "Dogecoin", "Litecoin", "Ethereum", "Cardano", "Chainlink", "Uniswap"]:
